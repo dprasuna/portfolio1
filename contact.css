@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) ,url(banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.formbox{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    overflow: hidden;
+    
+}
+.buttonbox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1cc5f01f;
+    border-radius: 30px;
+
+}
+
+.togglebtn1{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.togglebtn2{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right , #1d9de7 , #249beb);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.icons{
+    margin: 30px auto;
+    text-align: center;
+
+}
+.icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #1aace63d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+
+}
+.inputfill{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(37, 170, 231);
+    outline: none;
+    background: transparent;
+
+
+}
+
+.submitbtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right , #21ceec , #19b8e9);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.checkbox{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: rgb(20, 228, 243);
+    font-size: 12px;
+bottom: 68px;
+position: absolute;
+}
+
+#Login{
+    left: 50px;
+}
+#Register{
+    left: 450px;
+}
